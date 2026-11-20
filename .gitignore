@@ -1,0 +1,34 @@
+# Local secrets and environment files
+.env
+.env.*
+.envrc
+*.env
+.streamlit/secrets.toml
+
+# Local data and archives, with processed artifacts available to track
+/data/*
+!/data/processed/
+/archive/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging and notebook outputs
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

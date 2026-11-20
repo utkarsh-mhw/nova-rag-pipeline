@@ -1,0 +1,17 @@
+faiss-cpu
+huggingface-hub
+langchain-text-splitters
+langdetect
+nltk
+numpy
+pandas
+pyarrow
+pymupdf4llm
+rank-bm25
+sentence-transformers
+streamlit
+# macOS with Conda: XGBoost also needs the architecture-matched llvm-openmp package.
+xgboost
+pandas
+huggingface_hub
+rank_bm25
